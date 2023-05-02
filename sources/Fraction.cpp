@@ -44,9 +44,6 @@ namespace ariel {
     Fraction operator/(const Fraction &fraction, float float_num) {return fraction;}
     Fraction operator/(float float_num, const Fraction &fraction) {return fraction;}
 
-
-    Fraction& Fraction::operator=(const Fraction &other) {return *this;}
-
     bool Fraction::operator==(const Fraction &fraction) const {return true;}
     bool operator==(const Fraction &fraction, float float_num) {return true;}
     bool operator==(float float_num, const Fraction &fraction) {return true;}
