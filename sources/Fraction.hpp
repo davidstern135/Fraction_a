@@ -37,8 +37,6 @@ namespace ariel{
         friend Fraction operator/(const Fraction& fraction,float float_num);
         friend Fraction operator/(float float_num,const Fraction& fraction);
 
-        Fraction& operator=(const Fraction &other);
-
         bool operator==(const Fraction& fraction) const;
         friend bool operator==(const Fraction& fraction,float float_num);
         friend bool operator==(float float_num,const Fraction& fraction);
